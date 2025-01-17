@@ -4,10 +4,10 @@
     --h-container: #daa520;
     --jumbotron-bg: #00008b;
     --jumbotron-content-bg: #ee82ee;
-    --invite-only-bg: #d3d3d3;
-    --community-bg: #ffffff;
-    --fandom-bg: #d3d3d3;
-    --technology-bg: #ffffff;
+    --invite-only-bg: #fff;
+    --community-bg: #d3d3d3;
+    --fandom-bg: #fff;
+    --technology-bg: #d3d3d3;
     --footer-bg: #23272a;
 }
 
@@ -25,7 +25,7 @@ body {
 
 header {
     background-color: var(--header);
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,31 +72,30 @@ header {
 
 #jumbotron {
     background-color: var(--jumbotron-bg);
-    height: 100px;
+    height: 350px;
 }
 
 #invite-only {
     background-color: var(--invite-only-bg);
-    height: 100px;
+    height: 350px;
 }        
 
 #community {
     background-color: var(--community-bg);
-    height: 100px;
+    height: 350px;
 }
 
 #fandom {
     background-color: var(--fandom-bg);
-    height: 100px;
+    height: 350px;
 }
 
 #technology {
     background-color: var(--technology-bg);
-    height: 100px;
+    height: 600px;
 }
 
 footer {
     background-color: var(--footer-bg);
-    height: 100px;
+    height: 450px;
 }
-
