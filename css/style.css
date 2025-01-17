@@ -3,11 +3,17 @@
     --header: #add8e6;
     --h-container: #daa520;
     --jumbotron-bg: #00008b;
-    --jumbotron-content-bg: #ee82ee;
     --invite-only-bg: #fff;
     --community-bg: #d3d3d3;
     --fandom-bg: #fff;
     --technology-bg: #d3d3d3;
+    --sections-primary: #ee82ee;
+    --sections-big: #1e90ff;
+    --sections-small: #ffc0cb;
+    --sections-secondary: #228b22;
+    --footer-aside: #f08080;
+    --footer-columns: #20b2aa;
+    --footer-copy: #7fffd4;
     --footer-bg: #23272a;
 }
 
@@ -25,7 +31,7 @@ body {
 
 header {
     background-color: var(--header);
-    height: 40px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,6 +79,15 @@ header {
 #jumbotron {
     background-color: var(--jumbotron-bg);
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #jumbotron-content {
+        height: 280px;
+        width: 50%;
+        background-color: var(--sections-primary);
+    }
 }
 
 #invite-only {
