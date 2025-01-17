@@ -34,13 +34,13 @@ body {
         background-color: var(--header-bg);
         height: 50px;
     }
-    
+
     #h-container {
         background-color: var(--h-container-bg);
         height: 30px;
         font-size: 0.7rem;
     }
-    
+
     #h-logo {
         padding: 3px;
     }
@@ -50,7 +50,7 @@ body {
             margin: 3px;
         }
     }
-    
+
     #h-login {
         padding: 3px;
     }
@@ -62,7 +62,7 @@ body {
     #jumbotron {
         background-color: var(--jumbotron-bg);
         height: 350px;
-    
+
         #jumbotron-content {
             height: 280px;
             background-color: var(--sections-primary);
@@ -72,32 +72,30 @@ body {
     #invite-only {
         background-color: var(--invite-only-bg);
         height: 350px;
-    
-        #invite-only-content {
-        }
-    }    
+
+        #invite-only-content {}
+    }
 
     #community {
         background-color: var(--community-bg);
         height: 350px;
-    
-        #community-content {  
+
+        #community-content {
             flex-direction: row-reverse;
         }
     }
-    
+
     #fandom {
         background-color: var(--fandom-bg);
         height: 350px;
-    
-        #fandom-content {
-        }
+
+        #fandom-content {}
     }
-    
+
     #technology {
         background-color: var(--technology-bg);
         height: 600px;
-    
+
         #technology-content {
             height: 550px;
             background-color: var(--sections-secondary);
@@ -107,7 +105,7 @@ body {
     .big-content {
         background-color: var(--sections-big);
     }
-    
+
     .small-content {
         background-color: var(--sections-small);
     }
@@ -115,35 +113,35 @@ body {
     footer {
         background-color: var(--footer-bg);
         height: 470px;
-        
+
         #footer-nav {
             height: 400px;
             padding-bottom: 10px;
-        
+
             #footer-aside {
                 background-color: var(--footer-aside);
                 height: 370px;
                 width: 20%;
             }
-        
+
             #footer-columns {
                 background-color: var(--footer-columns);
                 height: 370px;
             }
         }
-    
+
         #footer-signup {
-    
+
             height: 70px;
             border-top: 2px solid var(--technology-bg);
-    
+
             #footer-signup-container {
                 height: 45px;
                 background-color: var(--footer-signup);
             }
         }
     }
-    
+
     .btn-footer {
         background-color: var(--footer-buttons);
         height: 20px;
@@ -223,15 +221,14 @@ header {
     background-color: ;
     height: px;
 
-    #invite-only-content {
-    }
-}        
+    #invite-only-content {}
+}
 
 #community {
     background-color: ;
     height: px;
 
-    #community-content {  
+    #community-content {
         flex-direction: row-reverse;
     }
 }
@@ -240,8 +237,7 @@ header {
     background-color: ;
     height: px;
 
-    #fandom-content {
-    }
+    #fandom-content {}
 }
 
 #technology {
@@ -282,20 +278,20 @@ footer {
         width: 100%;
         height: px;
         padding-bottom: px;
-    
+
         #footer-aside {
             background-color: ;
             height: px;
             width: 20%;
         }
-    
+
         #footer-columns {
             background-color: ;
             height: px;
             width: 40%;
             display: flex;
             flex-direction: row;
-    
+
             .nav-column {
                 width: 25%;
             }
