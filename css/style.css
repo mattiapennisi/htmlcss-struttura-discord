@@ -172,28 +172,22 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 70%;
+        width: 100%;
         height: 400px;
-
-        #footer-nav-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
+    
         #footer-aside {
             background-color: var(--footer-aside);
             height: 370px;
             width: 30%;
         }
-
+    
         #footer-columns {
             background-color: var(--footer-columns);
             height: 370px;
-            width: 70%;
+            width: 40%;
             display: flex;
             flex-direction: row;
-
+    
             .nav-column {
                 width: 25%;
             }
@@ -226,3 +220,4 @@ footer {
     height: 20px;
     font-size: 0.8rem;
 }
+
