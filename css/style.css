@@ -93,21 +93,71 @@ header {
 #invite-only {
     background-color: var(--invite-only-bg);
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #invite-only-content {
+        height: 280px;
+        width: 70%;
+        display: flex;
+    }
 }        
 
 #community {
     background-color: var(--community-bg);
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #community-content {
+        
+        flex-direction: row-reverse;
+        height: 280px;
+        width: 70%;
+        display: flex;
+    }
 }
 
 #fandom {
     background-color: var(--fandom-bg);
     height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #fandom-content {
+        height: 280px;
+        width: 70%;
+        display: flex;
+    }
 }
 
 #technology {
     background-color: var(--technology-bg);
     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #technology-content {
+        height: 480px;
+        width: 70%;
+        background-color: var(--sections-secondary);
+    }
+}
+
+.big-content {
+    background-color: var(--sections-big);
+    width: 70%;
+    height: 100%;
+}
+
+.small-content {
+    background-color: var(--sections-small);
+    width: 30%;
+    height: 100%;
 }
 
 footer {
