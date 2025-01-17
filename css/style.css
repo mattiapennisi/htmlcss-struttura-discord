@@ -11,10 +11,11 @@
     --sections-big: #1e90ff;
     --sections-small: #ffc0cb;
     --sections-secondary: #228b22;
+    --footer-bg: #23272a;
     --footer-aside: #f08080;
     --footer-columns: #20b2aa;
-    --footer-copy: #7fffd4;
-    --footer-bg: #23272a;
+    --footer-signup: #7fffd4;
+    --footer-buttons: #e4a3ac;
 }
 
 body {
@@ -163,4 +164,31 @@ header {
 footer {
     background-color: var(--footer-bg);
     height: 450px;
+    display: flex;
+    flex-direction: column;
+
+    #footer-signup {
+
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+
+        #footer-signup-container {
+            width: 70%;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--footer-signup);
+            align-items: center;
+        }
+    }
+}
+
+.btn-footer {
+    background-color: var(--footer-buttons);
+    display: flex;
+    align-items: center;
+    height: 20px;
+    font-size: 0.8rem;
 }
