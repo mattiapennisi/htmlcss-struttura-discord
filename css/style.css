@@ -23,25 +23,147 @@ body {
     flex-direction: column;
 }
 
+/* Debug */
 .debug {
 
     * {
         border: 1px dotted black;
     }
+
+    header {
+        background-color: var(--header-bg);
+        height: 50px;
+    }
+    
+    #h-container {
+        background-color: var(--h-container-bg);
+        height: 30px;
+        font-size: 0.7rem;
+    }
+    
+    #h-logo {
+        padding: 3px;
+    }
+
+    #navbar {
+        .nav-link {
+            margin: 3px;
+        }
+    }
+    
+    #h-login {
+        padding: 3px;
+    }
+
+    .section-content {
+        height: 280px;
+    }
+
+    #jumbotron {
+        background-color: var(--jumbotron-bg);
+        height: 350px;
+    
+        #jumbotron-content {
+            height: 280px;
+            background-color: var(--sections-primary);
+        }
+    }
+
+    #invite-only {
+        background-color: var(--invite-only-bg);
+        height: 350px;
+    
+        #invite-only-content {
+        }
+    }    
+
+    #community {
+        background-color: var(--community-bg);
+        height: 350px;
+    
+        #community-content {  
+            flex-direction: row-reverse;
+        }
+    }
+    
+    #fandom {
+        background-color: var(--fandom-bg);
+        height: 350px;
+    
+        #fandom-content {
+        }
+    }
+    
+    #technology {
+        background-color: var(--technology-bg);
+        height: 600px;
+    
+        #technology-content {
+            height: 550px;
+            background-color: var(--sections-secondary);
+        }
+    }
+
+    .big-content {
+        background-color: var(--sections-big);
+    }
+    
+    .small-content {
+        background-color: var(--sections-small);
+    }
+
+    footer {
+        background-color: var(--footer-bg);
+        height: 470px;
+        
+        #footer-nav {
+            height: 400px;
+            padding-bottom: 10px;
+        
+            #footer-aside {
+                background-color: var(--footer-aside);
+                height: 370px;
+                width: 20%;
+            }
+        
+            #footer-columns {
+                background-color: var(--footer-columns);
+                height: 370px;
+            }
+        }
+    
+        #footer-signup {
+    
+            height: 70px;
+            border-top: 2px solid var(--technology-bg);
+    
+            #footer-signup-container {
+                height: 45px;
+                background-color: var(--footer-signup);
+            }
+        }
+    }
+    
+    .btn-footer {
+        background-color: var(--footer-buttons);
+        height: 20px;
+        font-size: 0.8rem;
+    }
 }
 
+/* Header */
 header {
-    background-color: var(--header-bg);
-    height: 50px;
+    background-color: ;
+    height: ;
 }
 
 #h-container {
-    background-color: var(--h-container-bg);
-    height: 30px;
+    background-color: ;
+    height: px;
+    font-size: rem;
     width: 60%;
     display: flex;
     flex-direction: row;
-    font-size: 0.7rem;
 }
 
 #h-logo {
@@ -50,7 +172,7 @@ header {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    padding: 3px;
+    padding: px;
 }
 
 #navbar {
@@ -58,7 +180,7 @@ header {
     flex-direction: row;
 
     .nav-link {
-        margin: 3px;
+        margin: px;
     }
 }
 
@@ -68,43 +190,46 @@ header {
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    padding: 3px;
+    padding: px;
 }
 
+/* Flex center utility class */
 .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Section utility class */
 .section-content {
-    height: 280px;
+    height: px;
     width: 60%;
     display: flex;
 }
 
+/* Sections in main */
 #jumbotron {
-    background-color: var(--jumbotron-bg);
-    height: 350px;
+    background-color: ;
+    height: px;
 
     #jumbotron-content {
-        height: 280px;
+        height: px;
         width: 45%;
-        background-color: var(--sections-primary);
+        background-color: ;
     }
 }
 
 #invite-only {
-    background-color: var(--invite-only-bg);
-    height: 350px;
+    background-color: ;
+    height: px;
 
     #invite-only-content {
     }
 }        
 
 #community {
-    background-color: var(--community-bg);
-    height: 350px;
+    background-color: ;
+    height: px;
 
     #community-content {  
         flex-direction: row-reverse;
@@ -112,16 +237,16 @@ header {
 }
 
 #fandom {
-    background-color: var(--fandom-bg);
-    height: 350px;
+    background-color: ;
+    height: px;
 
     #fandom-content {
     }
 }
 
 #technology {
-    background-color: var(--technology-bg);
-    height: 600px;
+    background-color: ;
+    height: px;
 
     #technology-content {
         height: 550px;
@@ -129,21 +254,23 @@ header {
     }
 }
 
+/* Content utility classes */
 .big-content {
-    background-color: var(--sections-big);
+    background-color: ;
     width: 70%;
     height: 100%;
 }
 
 .small-content {
-    background-color: var(--sections-small);
+    background-color: ;
     width: 30%;
     height: 100%;
 }
 
+/* Footer */
 footer {
-    background-color: var(--footer-bg);
-    height: 470px;
+    background-color: ;
+    height: px;
     display: flex;
     flex-direction: column;
 
@@ -153,18 +280,18 @@ footer {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 400px;
-        padding-bottom: 10px;
+        height: px;
+        padding-bottom: px;
     
         #footer-aside {
-            background-color: var(--footer-aside);
-            height: 370px;
+            background-color: ;
+            height: px;
             width: 20%;
         }
     
         #footer-columns {
-            background-color: var(--footer-columns);
-            height: 370px;
+            background-color: ;
+            height: px;
             width: 40%;
             display: flex;
             flex-direction: row;
@@ -177,7 +304,7 @@ footer {
 
     #footer-signup {
 
-        height: 70px;
+        height: px;
         display: flex;
         justify-content: center;
         align-items: end;
@@ -185,20 +312,19 @@ footer {
 
         #footer-signup-container {
             width: 60%;
-            height: 45px;
+            height: px;
             display: flex;
             justify-content: space-between;
-            background-color: var(--footer-signup);
+            background-color: ;
             align-items: center;
         }
     }
 }
 
 .btn-footer {
-    background-color: var(--footer-buttons);
+    background-color: ;
     display: flex;
     align-items: center;
-    height: 20px;
-    font-size: 0.8rem;
+    height: px;
+    font-size: rem;
 }
-
