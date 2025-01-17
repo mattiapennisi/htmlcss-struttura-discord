@@ -167,16 +167,50 @@ footer {
     display: flex;
     flex-direction: column;
 
+    #footer-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 400px;
+
+        #footer-nav-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #footer-aside {
+            background-color: var(--footer-aside);
+            height: 370px;
+            width: 30%;
+        }
+
+        #footer-columns {
+            background-color: var(--footer-columns);
+            height: 370px;
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+
+            .nav-column {
+                width: 25%;
+            }
+        }
+    }
+
     #footer-signup {
 
         height: 50px;
         display: flex;
         justify-content: center;
         align-items: end;
+        border-top: 2px solid var(--technology-bg);
 
         #footer-signup-container {
             width: 70%;
-            height: 40px;
+            height: 30px;
             display: flex;
             justify-content: space-between;
             background-color: var(--footer-signup);
